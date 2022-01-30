@@ -1,0 +1,37 @@
+@import 'variables';
+
+.container {
+    background: $bgClr;
+    color: $fontClr;
+    height: 90vh;
+    width: 100%;
+    position: relative;
+    padding-top: 25vh;
+    padding-left: 5vw;
+    border-radius: 0 0 40px 40px;
+
+    .introCard {
+        border-radius: 5px;
+        width: fit-content;
+        font-size: 2rem;
+        font-weight: 400;
+        color: $bgClr;
+        padding: 2rem 5rem;
+        max-width: 80vw;
+        position: relative;
+        background:$accentClr;
+    }
+    
+    .professionCard {
+        border-radius: 5px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        color: $bgClr;
+        padding: 2rem 5rem;
+        max-width: 80vw;
+        position: relative;
+        margin-top: 3vh;
+        width: fit-content;
+        background: #ff0;
+    }
+}
