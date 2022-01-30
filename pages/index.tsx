@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>I'm Manish Kumar Das</title>
+        <title>I&apos;m Manish Kumar Das</title>
         <meta name="description" content="I'm Manish Kumar Das" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

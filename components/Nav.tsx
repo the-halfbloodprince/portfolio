@@ -1,12 +1,22 @@
+import Link from 'next/link'
+
 import styles from '../styles/Nav.module.scss'
 
 const Nav = () => {
   return (
       <div className={styles.container}>
-          <a className={styles.link} href="/">Resume</a>
-          <a className={styles.link} href="/">What's Special</a>
-          <a className={styles.link} href="/">Projects</a>
-          <a className={styles.link} href="/">Experiments</a>
+          <Link href="/">
+            <a className={styles.link}>Resume</a>
+          </Link>
+          <Link href="/">
+            <a className={styles.link}>What&apos;s Special</a>
+          </Link>
+          <Link href="/">
+            <a className={styles.link}>Projects</a>
+          </Link>
+          <Link href="/">
+            <a className={styles.link}>Experiments</a>
+          </Link>
       </div>
   );
 };

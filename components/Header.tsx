@@ -17,7 +17,7 @@ const Header: NextPage = () => {
         <div className={styles.container}>
             <Nav />
             <div className={styles.introCard}>
-                Hi I'm Manish
+                Hi I&apos;m Manish
                 {/* {' '}
                 <Typewriter
                     words={[
@@ -28,7 +28,7 @@ const Header: NextPage = () => {
                 /> */}
             </div>
             <div className={styles.professionCard}>
-                I'm{' '}
+                I&apos;m{' '}
                 <span>
                     <Typewriter
                         words={professions}
